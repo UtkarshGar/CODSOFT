@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #a38d7f , #947874);
+        /* background: linear-gradient(45deg, #977c75, #000000a3); */
+}
+
+.calculator {
+    padding: 25px;
+    border-radius: 15px;
+    /* background: transparent; */
+        /* background: #beb3b1; */
+    background: #beb3b1af;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    /* border: 0.5px solid black; */
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    background: transparent;
+    background: white;
+    color: #1b1818;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: #181616;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    color: #181616;
+}
+.operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+#AC{
+    color: white;
+    background-color: #00b3ff;
+}
+
+.equalbtn {
+    background-color: #0d0d0d;
+    color: #faf8f6;
+    font-weight: bold;
+}
+
+.operator {
+    /* background-color:rgb(182, 182, 182); */
+    background-color: rgb(151 147 146)
+}
