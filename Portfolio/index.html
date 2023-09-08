@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Utkarsh Garg</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- <div class="logo">Utkarsh<span>Garg</span></div> -->
+                <div class="logo">Port<span>folio</span></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h2>Hello Everyone,</h2>
+                <h1>I am Utkarsh <span>Garg</span></h1>
+                <p>And I'm a Front-end Web Developer</p>
+            </div>
+            <div class="social-media">
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn" >Download Resume</a>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2022-12-17 at 22.32.47.2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>I'm a front-end web developer with a passion for crafting seamless and visually captivating online experiences. Through expertise in HTML, CSS, and JavaScript, I bring designs to life, ensuring both functionality and aesthetics. Explore my work to see how I transform ideas into engaging web interfaces.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>Maharaja Agrasen Institute Of Technology</span><br>Bachelor's of technology(2021-2025)</li>
+                            <li><span>Aravali International School</span><br>12th(2020-2021) - 96%</li>
+                            <li><span>Presidium </span><br>10th(2018-2019) - 92%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Chegg</span><br>Subject Matter Expert<br></li>
+                            <li><span>Codsoft</span><br>Web Developer<br>(August-September)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My <span>Skills</span></h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Front-end Web Development</h2>
+                    <p>I specialize in crafting engaging and responsive user interfaces using HTML, CSS, and JavaScript. Whether it's building interactive websites or optimizing user experiences, I'm dedicated to creating web solutions that captivate and perform.</p>
+                    <a href="#" class="lm">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>My passion for problem-solving drives my proficiency in data structures and algorithms. I enjoy tackling complex challenges and optimizing code efficiency to deliver elegant and scalable solutions.</p>
+                    <a href="#" class="lm">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Basic SQL</h2>
+                    <p>I have a foundational understanding of SQL, focusing on essential concepts like querying data, creating tables, and basic database management. I'm eager to expand my skills further in this area.</p>
+                    <a href="#" class="lm">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="pro-list">
+                <div class="pro">
+                    <img src="Screenshot (816).png">
+                    <div class="layer">
+                        <h3>Basic Calculator</h3>
+                        <p>This calculator is designed to handle fundamental arithmetic operations, including addition, subtraction, multiplication, division, and percentage calculations.</p>
+                        <a href="https://calculatorcalc.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="Screenshot (817).png" height="290px">
+                    <div class="layer">
+                        <h3>Healthcare Landing Page</h3>
+                        <p>This landing page showcases a healthcare website built using HTML, CSS, and JavaScript. Explore our healthcare services and resources.</p>
+                        <a href="https://healthcare108.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="pro">
+                    <img src="Screenshot (818).png" height="290">
+                    <div class="layer">
+                        <h3>Random Password Generator</h3>
+                        <p>Generate secure and unique passwords with this tool. Protect your online accounts with strong, random passwords.</p>
+                        <a href="https://paaswordgenerator.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Utkarsh Garg</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <br>
+</body>
+</html>
